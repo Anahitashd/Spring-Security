@@ -12,8 +12,9 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.stereotype.Controller;
+import java.util.concurrent.TimeUnit;
 import static com.example.demo.security.ApplicationUserRole.*;
-import static org.springframework.security.config.Customizer.withDefaults;
+
 
 @Controller
 @EnableWebSecurity
@@ -31,17 +32,31 @@ public class ApplicationSecurityConfig {
     @Bean
     protected SecurityFilterChain configure(HttpSecurity http) throws Exception {
         http
+//              .csrf(csrf -> csrf.csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse()))
                 .csrf(csrf -> csrf.disable())
                 .authorizeRequests(auth -> auth
                         .requestMatchers("/", "index.html", "/css/*", "/js/*").permitAll()
                         .requestMatchers("/api/**").hasRole(STUDENT.name())
-//                        .requestMatchers(HttpMethod.DELETE,"/managment/api/**").hasAuthority(COURSE_WRITE.getPermission())
-//                        .requestMatchers(HttpMethod.POST,"/managment/api/**").hasAuthority(COURSE_WRITE.getPermission())
-//                        .requestMatchers(HttpMethod.PUT,"/managment/api/**").hasAuthority(COURSE_WRITE.getPermission())
-//                        .requestMatchers(HttpMethod.GET,"/managment/api/**").hasAnyRole(ADMIN.name(),ADMINTRAINEE.name( ))
+//                      .requestMatchers(HttpMethod.DELETE,"/managment/api/**").hasAuthority(COURSE_WRITE.getPermission())
+//                      .requestMatchers(HttpMethod.POST,"/managment/api/**").hasAuthority(COURSE_WRITE.getPermission())
+//                      .requestMatchers(HttpMethod.PUT,"/managment/api/**").hasAuthority(COURSE_WRITE.getPermission())
+//                      .requestMatchers(HttpMethod.GET,"/managment/api/**").hasAnyRole(ADMIN.name(),ADMINTRAINEE.name())
                         .anyRequest()
                         .authenticated())
-                .httpBasic(withDefaults());
+//                .httpBasic(withDefaults());
+                .formLogin(form -> form
+                        .loginPage("/login")
+                        .permitAll()
+                        .defaultSuccessUrl("/courses", true))
+                .rememberMe(remember -> remember
+                        .tokenValiditySeconds((int) TimeUnit.DAYS.toSeconds(21))
+                        .key("somethingverysecured"))
+                .logout(longout -> longout
+                        .logoutUrl("/logout")
+                        .clearAuthentication(true)
+                        .invalidateHttpSession(true)
+                        .deleteCookies("JSESSIONID", "remember-me")
+                        .logoutSuccessUrl("/login"));
         return http.build();
 
     }
@@ -56,14 +71,14 @@ public class ApplicationSecurityConfig {
                 .authorities(STUDENT.getGrantedAuthorities())
                 .build();
 
-        UserDetails lindaUser=User.builder()
+        UserDetails lindaUser = User.builder()
                 .username("Linda")
                 .password(passwordEncoder.encode("password"))
 //                .roles(ADMIN.name())
                 .authorities(ADMIN.getGrantedAuthorities())
                 .build();
 
-        UserDetails tomUser=User.builder()
+        UserDetails tomUser = User.builder()
                 .username("tom")
                 .password(passwordEncoder.encode("password"))
 //                .roles(ADMINTRAINEE.name())
