@@ -1,0 +1,1 @@
+ALTER TABLE tb_session_input_constraint_violation_handler DROP COLUMN `log_incident`

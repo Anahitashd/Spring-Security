@@ -1,0 +1,13 @@
+FROM jdk:8u251.1
+
+EXPOSE 8080
+
+ENV DB_HOST=db
+ENV DB_PORT=0
+ENV DB_USERNAME=root
+ENV DB_PASSWORD=mysqlR00tP@ss99
+ENV DEPLOYMENT_PROFILE=dev
+ENV APPLICATION_JAR_PATH=/pam.jar
+
+ADD target/pam.jar .
+COPY tzdb.dat  /opt/jdk/8u251/jre/lib/tzdb.dat

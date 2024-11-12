@@ -1,0 +1,37 @@
+node("pam-builder") {
+    def gitCredentialID = "git2-credential1"
+    def coregitURL = "https://git.amnafzar.ir/fidar/core-babak.git"
+    def coreBranch = env["CORE_BRANCH"]
+    def pamGitURL = "https://git.amnafzar.ir/fidar/pam-babak.git"
+    def pamBranch = env["PAM_BRANCH"]
+    def TAG = env["TAG"]
+    stage('Preparation') {
+        cleanWs()   
+        checkout([
+            $class: 'GitSCM',
+            branches: [[name: '*/' + pamBranch]],
+            extensions: [
+                [$class: 'LocalBranch', localBranch: pamBranch],
+                [$class: 'CloneOption', depth: 1, noTags: false, reference: '', shallow: false, timeout: 20]
+            ],
+            userRemoteConfigs: [[credentialsId: gitCredentialID, url: pamGitURL]]
+        ])
+        checkout([
+            $class: 'GitSCM',
+            branches: [[name: '*/' + coreBranch]],
+            extensions: [
+                [$class: 'LocalBranch', localBranch: coreBranch],
+                [$class: 'CloneOption', depth: 1, noTags: false, reference: '', shallow: false, timeout: 20],
+                [$class: 'RelativeTargetDirectory', relativeTargetDir: 'core']
+            ],
+            userRemoteConfigs: [[credentialsId: gitCredentialID, url: coregitURL]]
+        ])      
+    }    
+
+    stage('Build') {
+        withCredentials([usernamePassword(credentialsId: env.NEXUS_CREDENTIAL_NAME, 
+                                          usernameVariable: 'nexusUser', passwordVariable: 'nexusPass')]) {
+            sh "TAG=${TAG} /bin/bash -ex $WORKSPACE/pam-build-script.sh"
+        }
+    }
+}

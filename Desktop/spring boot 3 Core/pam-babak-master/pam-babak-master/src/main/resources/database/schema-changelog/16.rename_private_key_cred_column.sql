@@ -1,0 +1,1 @@
+ALTER TABLE `tb_private_key_credential` RENAME COLUMN `private_kay` TO `private_key`

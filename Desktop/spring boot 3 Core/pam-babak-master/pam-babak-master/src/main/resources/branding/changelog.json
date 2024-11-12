@@ -1,0 +1,270 @@
+[
+  {
+    "version": "12.7.2",
+    "featuresInPersian": [
+      "قابلیت بازیابی نقطه ی بازیابی بوسیله ی فایل"
+    ],
+    "featuresInEnglish": [
+      "Ability to restore a restore-point using a file"
+    ]
+  },
+  {
+    "version": "12.6.2",
+    "featuresInPersian": [
+      "تنظیمات NTP"
+    ],
+    "featuresInEnglish": [
+      "NTP Configuration"
+    ]
+  },
+  {
+    "version": "12.5.12",
+    "featuresInPersian": [
+      "بهبود زیرساخت اتصالات و رفع مشکلات اتصال پایگاه داده"
+    ],
+    "featuresInEnglish": [
+      "Improved connections infrastructures and fixed DB connection problems"
+    ]
+  },
+  {
+    "version": "12.5.11",
+    "featuresInPersian": [
+      "تنظیمات اطلاع رسانی مصرف منابع سخت افزاری"
+    ],
+    "featuresInEnglish": [
+      "Hardware resource usage notification settings"
+    ]
+  },
+  {
+    "version": "12.5.1",
+    "featuresInPersian": [
+      "رفع مشکلات ارسال کننده ایمیل و حذف اجباری بودن نام کاربری و رمز عبور در تنظیمات"
+    ],
+    "featuresInEnglish": [
+      "Fixed email sender issues and allow settings without authentication"
+    ]
+  },
+  {
+    "version": "12.5.0",
+    "featuresInPersian": [
+      "حذف سرویس احراز هویت خارجی نوع LDAP",
+      "امکان تعریف اطلاعات احراز هویت کاربر ادمین در اطلاعات تنظیمات سامانه احراز هویت خارجی نوع Active Directory"
+    ],
+    "featuresInEnglish": [
+      "Removed LDAP external authentication provider",
+      "Ability to register admin's username and password for active-directory authentication provider"
+    ]
+  },
+  {
+    "version": "12.4.3",
+    "featuresInPersian": [
+      "بهبود ساختار بازیابی کاربران از Active Directory",
+      "رفع محدودیت های ثبت DN در سامانه های احراز هویت خارجی نوع LDAP و Active Directory"
+    ],
+    "featuresInEnglish": [
+      "Improved importing users from active directory",
+      "Fix limitations on setting DNs for 'LDAP' and 'Active Directory' external authentication providers"
+    ]
+  },
+  {
+    "version": "12.4.2",
+    "featuresInPersian": [
+      "قابلیت اعمال Database Migration بصورت برنامه نویسی مستقیم یا در ترکیب با اسکریپت SQL"
+    ],
+    "featuresInEnglish": [
+      "Ability to apply database migration just programmatically or with combination with SQL scripts"
+    ]
+  },
+  {
+    "version": "12.4.0",
+    "featuresInPersian": [
+      "قابلیت ایجاد و بازیابی نقاط بازیابی (نسخه های پشتیان) از سامانه",
+      "بهبودها و رفع باگ های جزئی در سایر بخش ها"
+    ],
+    "featuresInEnglish": [
+      "Ability to create and restore restore-points (Backups) from system",
+      "Other minor fixes and improvements"
+    ]
+  },
+  {
+    "version": "12.3.8",
+    "featuresInPersian": [
+      "قابلیت اعمال فیلتر و مرتب سازی بر روی لاگ های سیستم"
+    ],
+    "featuresInEnglish": [
+      "Ability to filter and sort system logs"
+    ]
+  },
+  {
+    "version": "12.3.5",
+    "featuresInPersian": [
+      "انتشار رخداد خروج کاربر (Logout) از سیستم"
+    ],
+    "featuresInEnglish": [
+      "Publish user logout event"
+    ]
+  },
+  {
+    "version": "12.3.3",
+    "featuresInPersian": [
+      "قابلیت مدیریت دسترسی مبتنی بر IP. امکان ثبت الگوی IPها در لیست سیاه و سفید"
+    ],
+    "featuresInEnglish": [
+      "IP Access Policy. Ability to register IP patterns in white and black lists"
+    ]
+  },
+  {
+    "version": "12.3.2",
+    "featuresInPersian": [
+      "ایجاد API جدید در Host Agent جهت بروزرسانی تنظیمات سرویس 'snmpd' در Host"
+    ],
+    "featuresInEnglish": [
+      "New API in 'Host Agent' to restart 'snmpd' service in host"
+    ]
+  },
+  {
+    "version": "12.3.0",
+    "featuresInPersian": [
+      "تنظیمات SNMP"
+    ],
+    "featuresInEnglish": [
+      "SNMP Settings"
+    ]
+  },
+  {
+    "version": "12.1.2",
+    "featuresInPersian": [
+      "قابلیت تنظیمات پیچیدگی رمز عبور. ادمین سامانه میتواند سیاست پیچیدگی رمز عبور کاربران را تنظیم کند"
+    ],
+    "featuresInEnglish": [
+      "Password Complexity Settings. Admin users can set users' password complexity policies"
+    ]
+  },
+  {
+    "version": "12.1.0",
+    "featuresInPersian": [
+      "مدیریت تخصیص نقش. مدیریت و تخصیص نقش های قابل اعطا به کاربرانی که مجوز ساخت و ویرایش نقش را دارند"
+    ],
+    "featuresInEnglish": [
+      "Role Assignment Management. Manage and define assignable roles by users having create/update privilege on users"
+    ]
+  },
+  {
+    "version": "12.0.8",
+    "featuresInPersian": [
+      "بهبود و رفع محدودیت های بازیابی کاربران از AD و امکان فعالسازی گروه بندی کاربران بازیابی شده"
+    ],
+    "featuresInEnglish": [
+      "Improved and fixed importing users from AD and ability to enable grouping imported users"
+    ]
+  },
+  {
+    "version": "12.0.2",
+    "featuresInPersian": [
+      "قابلیت حذف نسخه پشتیبان پایگاه داده",
+      "رفع مشکل دانلود فایل نسخه پشتبان پایگاه داده"
+    ],
+    "featuresInEnglish": [
+      "Ability to delete database backup record",
+      "Fix error on downloading database backup file"
+    ]
+  },
+  {
+    "version": "12.0.1",
+    "featuresInPersian": [
+      "قابلیت ثبت عبارت امنیتی و گواهی های Intermediate برای گواهی نوع وب"
+    ],
+    "featuresInEnglish": [
+      "Ability to register passphrase and 'intermediate certificates' for web certificate"
+    ]
+  },
+  {
+    "version": "12.0.0",
+    "featuresInPersian": [
+      "قابلیت زمابندی اجرای سرویس ها",
+      "قابلیت اعمال زمانبدی بر سرویس های 'تهیه پشتیبان از پایگاه داده' و 'تغییر گواهی وب'",
+      "قابلیت مشاهده ی سرویس های زمان بندی شده و لغو آن ها",
+      "ساختار دینامیک جهت مسدودسازی تمامی درخواست در حین اجرای یک سرویس دلخواه"
+    ],
+    "featuresInEnglish": [
+      "Ability to schedule tasks",
+      "Ability to apply scheduling on 'Database Backup' and 'Web Certificate Registration' services",
+      "Ability to review scheduled tasks and cancel them on demand",
+      "Dynamic structure of intercepting all request while executing a chosen service"
+    ]
+  },
+  {
+    "version": "11.7.6",
+    "featuresInPersian": [
+      "بهبود ساختار و نمایش اعلان ها",
+      "امکان مشاهده پیغام ها در صفحه پروفایل"
+    ],
+    "featuresInEnglish": [
+      "Notifications display and structure improvement",
+      "Ability to see and read messages in profile"
+    ]
+  },
+  {
+    "version": "11.7.4",
+    "featuresInPersian": [
+      "تغییر ساختار مدل اطلاعات 'درباره سیستم'",
+      "رفع باگ و بهبود سایر بخش ها"
+    ],
+    "featuresInEnglish": [
+      "Refactor DTO structure of 'About System'",
+      "Other fixes and improvements"
+    ]
+  },
+  {
+    "version": "11.7.3",
+    "featuresInPersian": [
+      "قابلیت پشتیبان گیری از پایگاه داده"
+    ],
+    "featuresInEnglish": [
+      "Backup from database"
+    ]
+  },
+  {
+    "version": "11.7.1",
+    "featuresInPersian": [
+      "قابلیت ثبت گواهی (Certificate) به تعداد دلخواه و برای ارتباط مختلف"
+    ],
+    "featuresInEnglish": [
+      "Ability to register any number of certificates for different communications"
+    ]
+  },
+  {
+    "version": "11.7.1",
+    "featuresInPersian": [
+      "قابلیت ثبت بیش از یک سرویس احراز هویت خارجی از هر نوع"
+    ],
+    "featuresInEnglish": [
+      "Ability to register more than one external authentication provider for each type"
+    ]
+  },
+  {
+    "version": "11.6.9",
+    "featuresInPersian": [
+      "قابلیت اعمال ترتیب در دریافت داده ها",
+      "بازیابی و ذخیره ی کاربران از Active Directory/LDAP",
+      "ذخیره سازی پیغام های منتشر شده و امکان جستوجو در آن ها",
+      "مدیریت نشست کاربران",
+      "پشتیبانی از سامانه احراز هویت TACACS",
+      "احراز هویت دو مرحله ای",
+      "ارسال پیغام به کاربران دلخواه",
+      "نمایش لاگ های سیستم",
+      "ساختار logging پیشرفته"
+    ],
+    "featuresInEnglish": [
+      "Ability to set sorting on getting records",
+      "Importing users from active directory/LDAP",
+      "Keeping history of published messages and ability to search over them",
+      "Users sessions management",
+      "TACACS+ authentication provider",
+      "Two Factor Authentication",
+      "Sending message to specific users",
+      "Displaying System Logs",
+      "New advanced logging structure"
+    ]
+  }
+]
