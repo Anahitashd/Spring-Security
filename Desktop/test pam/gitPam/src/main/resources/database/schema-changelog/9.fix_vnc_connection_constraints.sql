@@ -1,0 +1,2 @@
+ALTER TABLE `tb_vnc_connection` MODIFY  `repeater_host`  VARCHAR(48) DEFAULT NULL;
+ALTER TABLE `tb_vnc_connection` MODIFY  `repeater_port`  MEDIUMINT DEFAULT NULL CHECK ( `repeater_port` >= 1 AND `repeater_port` <= 65535 );

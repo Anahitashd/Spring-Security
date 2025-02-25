@@ -1,0 +1,468 @@
+[
+  {
+    "version": "6.2.4",
+    "featuresInPersian": [
+      "قابلیت بازیابی نقطه ی بازیابی بوسیله ی فایل",
+      "بهبود قابلیت نقطه بازیابی و امکان ایجاد نقطه بازیابی پیش از بروزرسانی سرور",
+      "قابلیت اجبار کاربران به فعالسازی احراز هویت دو مرحله ای",
+      "قابلیت بروزرسانی سرور",
+      "قابلیت اتصال SSH بصورت Transparent",
+      "قابلیت انتخاب چند اتصال و گروه اتصال در مجوزهای دسترسی"
+    ],
+    "featuresInEnglish": [
+      "Ability to restore a restore-point using a file",
+      "Improve restore-point feature and ability to create restore-point before updating server",
+      "Ability to force users to activate 2FA",
+      "Ability to update server",
+      "Transparent SSH sessions",
+      "Ability to select multiple connections and connection-groups in access-rules"
+    ]
+  },
+  {
+    "version": "6.2.0",
+    "featuresInPersian": [
+      "قابلیت انتخاب چند اتصال و گروه اتصال در مجوزهای دسترسی"
+    ],
+    "featuresInEnglish": [
+      "Ability to select multiple connections and connection-groups in access-rules"
+    ]
+  },
+  {
+    "version": "6.1.5",
+    "featuresInPersian": [
+      "تنظیمات NTP",
+      "یکپارچه سازی با سامانه کاوش: امکان اسکن فایل ها پیش از دانلود و آپلود در نشست ها",
+      "تنظیمات اطلاع رسانی مصرف منابع سخت افزاری"
+    ],
+    "featuresInEnglish": [
+      "NTP Configuration",
+      "Integration with Kavosh: ability to scan files before download and upload in remote sessions",
+      "Hardware resource usage notification settings"
+    ]
+  },
+  {
+    "version": "6.1.1",
+    "featuresInPersian": [
+      "نمایش مجوزهای دسترسی اعطا شده به یک کاربر در صفحه جزئیات کاربر",
+      "بهبود ساختار ذخیره سازی کلیدها و کامندها و رفع خطاها در طول نشست",
+      "رفع مشکل انتقال کلیپبورد شامل کاراکترهای غیرمجاز",
+      "رفع مشکل نمایش کلیدهای نشست در رابط کاربری",
+      "رفع مشکل دانلود فیلم نشست در رابط کاربری"
+    ],
+    "featuresInEnglish": [
+      "Displaying user's rules in user's details page",
+      "Improved and fixed bugs of key and command extraction",
+      "Fixed bug of transferring clipboard containing illegal characters ",
+      "Fixed bug of displaying session's key-events in UI",
+      "Fixed bug of downloading session's video in UI"
+    ]
+  },
+  {
+    "version": "6.1.0",
+    "featuresInPersian": [
+      "مکانیزم 'Password Masking' بر روی نشست های نوع SSH و Telnet",
+      "ثبت تاریخچه و لاگ محتوای انتقال داده شده از طریق Clipboard در نشست ها",
+      "امکان جستوجوی دستورات اجرا شده بر روی تمامی نشست های ضبط شده",
+      "رفع باگ دریافت کلیدهای ورودی کاربران و مشاهده ی فیلم نشست در صورت نداشتن دسترسی های لازم",
+      "بهبود ساختار و عملکرد جستوجو و فیلتر بر روی نشست های ضبط شده",
+      "بهبود UX در جدول نشست های ضبط شده و مشاهده ی تاریخچه عملیات انجام شده در نشست",
+      "رفع باگ ها و بهبودها در سایر بخش ها"
+    ],
+    "featuresInEnglish": [
+      "'Password Masking' mechanism on SSH and Telnet sessions",
+      "Register and log transferred clipboards in sessions",
+      "Ability to search for executed commands globally across all captures",
+      "Fix bugs of retrieving key-events and watching video of a capture without required privileges",
+      "Improved structure and performance of searching on captures",
+      "Improve UX of capture's table and reviewing action histories",
+      "Other fixes and improvements"
+    ]
+  },
+  {
+    "version": "5.4.4",
+    "featuresInPersian": [
+      "بخش ویژه گزارشات پیشرفته فعالیت کاربران"
+    ],
+    "featuresInEnglish": [
+      "Special section of advance users' activity reports"
+    ]
+  },
+  {
+    "version": "5.4.3",
+    "featuresInPersian": [
+      "رفع مشکلات ارسال کننده ایمیل و حذف اجباری بودن نام کاربری و رمز عبور در تنظیمات"
+    ],
+    "featuresInEnglish": [
+      "Fixed email sender issues and allow settings without authentication"
+    ]
+  },
+  {
+    "version": "5.4.2",
+    "featuresInPersian": [
+      "حذف سرویس احراز هویت خارجی نوع LDAP",
+      "امکان تعریف اطلاعات احراز هویت کاربر ادمین در اطلاعات تنظیمات سامانه احراز هویت خارجی نوع Active Directory"
+    ],
+    "featuresInEnglish": [
+      "Improved importing users from active directory",
+      "Fix limitations on setting DNs for 'LDAP' and 'Active Directory' external authentication providers"
+    ]
+  },
+  {
+    "version": "5.4.1",
+    "featuresInPersian": [
+      "بهبود ساختار بازیابی کاربران از Active Directory",
+      "رفع محدودیت های ثبت DN در سامانه های احراز هویت خارجی نوع LDAP و Active Directory"
+    ],
+    "featuresInEnglish": [
+      "Improved importing users from active directory",
+      "Fix limitations on setting DNs for 'LDAP' and 'Active Directory' external authentication providers"
+    ]
+  },
+  {
+    "version": "5.4.0",
+    "featuresInPersian": [
+      "حالت Transparent. قابلیت تنظیم اتصال نوع RDP روی حالت Transparent"
+    ],
+    "featuresInEnglish": [
+      "Transparent Mode. Ability to configure RDP connections to be accessible on transparent mode"
+    ]
+  },
+  {
+    "version": "5.3.10",
+    "featuresInPersian": [
+      "قابلیت ایجاد و بازیابی نقاط بازیابی (نسخه های پشتیان) از سامانه",
+      "بهبودها و رفع باگ های جزئی در سایر بخش ها"
+    ],
+    "featuresInEnglish": [
+      "Ability to create and restore restore-points (Backups) from system",
+      "Other minor fixes and improvements"
+    ]
+  },
+  {
+    "version": "5.3.9",
+    "featuresInPersian": [
+      "قابلیت ثبت چندین برنامه راه دور برای نشست های RDP و انتخاب برنامه مورد نظر در مجور دسترسی",
+      "قابلیت جستوجو در دستورات نشست ضبط شده بر اساس ReGex"
+    ],
+    "featuresInEnglish": [
+      "Ability to add multiple remote-app to RDP connections and select arbitrary one in access-rules",
+      "Ability to search over captures' commands based on ReGex"
+    ]
+  },
+  {
+    "version": "5.3.8",
+    "featuresInPersian": [
+      "قابلیت اعمال فیلتر و مرتب سازی بر روی لاگ های سیستم"
+    ],
+    "featuresInEnglish": [
+      "Ability to filter and sort system logs"
+    ]
+  },
+  {
+    "version": "5.3.7",
+    "featuresInPersian": [
+      "قابلیت فعالسازی اسکن فایل ها پیش از دانلود در نشست راه دور"
+    ],
+    "featuresInEnglish": [
+      "Ability to activate scanning downloading files on remote-sessions"
+    ]
+  },
+  {
+    "version": "5.3.6",
+    "featuresInPersian": [
+      "قابلیت Remember-Me برای ثبت گواهی احراز هویت در زمان برقراری نشست راه دور",
+      "نمایش اطلاعات نشست های فعال در 'پنل نشست های فعال' صفحه نشست راه دور",
+      "رفع باگ ها و بهبود سایر بخش ها"
+    ],
+    "featuresInEnglish": [
+      "'Remember-Me' feature when establishing remote-session credentials",
+      "Displaying active sessions' information on 'Active Sessions Panel' in remote-session page",
+      "Other fixes and improvements in other sections"
+    ]
+  },
+  {
+    "version": "5.3.5",
+    "featuresInPersian": [
+      "قابلیت مدیریت دسترسی مبتنی بر IP. امکان ثبت الگوی IPها در لیست سیاه و سفید"
+    ],
+    "featuresInEnglish": [
+      "IP Access Policy. Ability to register IP patterns in white and black lists"
+    ]
+  },
+  {
+    "version": "5.3.4",
+    "featuresInPersian": [
+      "فیلتر پیشرفته بر روی نشست ها. امکان فیلتر نشست ها بر اساس فایل های منتقل شده و/یا رخدادهای نقض محدودیت های ورودی کاربران در آن ها",
+      "امکان مشاهده ی فایل های منتقل شده و رخدادهای نقض محدودیت های ورودی کاربران در جدول نشست های ضبط شده"
+    ],
+    "featuresInEnglish": [
+      "Captures' Advanced Filters. Ability to filter captures by transferred files and/or input constraint violation incidents",
+      "Ability to review transferred files and input constraint violation incidents on captures' table"
+    ]
+  },
+  {
+    "version": "5.3.3",
+    "featuresInPersian": [
+      "قابلیت بارگذاری و بازیابی از طریق فایل اکسل (کاربران، گروه های کاربری، اتصالات، مجوزهای دسترسی و محدودیت ورودی نشست)"
+    ],
+    "featuresInEnglish": [
+      "Ability to import and export as excel (users, user-groups, connections, access-rules and session-input-constraints)"
+    ]
+  },
+  {
+    "version": "5.3.2",
+    "featuresInPersian": [
+      "دستورات Batch. امکان اجرای دستورات بصورت دسته ای در اتصالات نوع SSH"
+    ],
+    "featuresInEnglish": [
+      "Batch Commands. Ability to execute batched commands on SSH connections"
+    ]
+  },
+  {
+    "version": "5.3.1",
+    "featuresInPersian": [
+      "تنظیمات SNMP"
+    ],
+    "featuresInEnglish": [
+      "SNMP Settings"
+    ]
+  },
+  {
+    "version": "5.3.0",
+    "featuresInPersian": [
+      "قابلیت ثبت درخواست دسترسی به سرور. کاربران میتوانند با ثبت اطلاعات سرور مورد نظر درخواست دسترسی به آن را ثبت کنند",
+      "رفع مشکل کندی نشست های راه دور",
+      "ارسال اعلان، ایمیل و پیامک به کاربران پس از اعطا/لغو مجوز دسترسی به اتصال",
+      "اصلاح ساختار اعمال فیلتر و مرتب سازی بر روی اطلاعات اتصال در جدول مجوزهای دسترسی",
+      "رفع مشکلات و بهبودهای دیگر"
+    ],
+    "featuresInEnglish": [
+      "Connection Access Request. Ability to submit server's information and request for access",
+      "Fixed remote session's performance",
+      "Sending notification, email and SMS to users on access-rule assignment/revocation",
+      "Fix applying filters and sorting based on connection info on access-rule table",
+      "Other fixes and improvements"
+    ]
+  },
+  {
+    "version": "5.2.6",
+    "featuresInPersian": [
+      "قابلیت تنظیمات پیچیدگی رمز عبور. ادمین سامانه میتواند سیاست پیچیدگی رمز عبور کاربران را تنظیم کند"
+    ],
+    "featuresInEnglish": [
+      "Password Complexity Settings. Admin users can set users' password complexity policies"
+    ]
+  },
+  {
+    "version": "5.2.5",
+    "featuresInPersian": [
+      "مدیریت تخصیص نقش. مدیریت و تخصیص نقش های قابل اعطا به کاربرانی که مجوز ساخت و ویرایش نقش را دارند"
+    ],
+    "featuresInEnglish": [
+      "Role Assignment Management. Manage and define assignable roles by users having create/update privilege on users"
+    ]
+  },
+  {
+    "version": "5.2.4",
+    "featuresInPersian": [
+      "بهبود و رفع محدودیت های بازیابی کاربران از AD و امکان فعالسازی گروه بندی کاربران بازیابی شده"
+    ],
+    "featuresInEnglish": [
+      "Improved and fixed importing users from AD and ability to enable grouping imported users"
+    ]
+  },
+  {
+    "version": "5.2.3",
+    "featuresInPersian": [
+      "بهبود ساختار نشست راه دور",
+      "افزودن ویژگی های جدید به نشست های ضبط شده: 'حجم ویدئو' و 'مدت زمان'"
+    ],
+    "featuresInEnglish": [
+      "Improved remote session structure",
+      "New properties for captures: 'Video Size' and 'Duration'"
+    ]
+  },
+  {
+    "version": "5.2.2",
+    "featuresInPersian": [
+      "قابلیت ثبت اطلاعات دسترسی به منابع، مانند نام کاربری، رمز عبور و کلید مخفی",
+      "مشاهده لیست و کپی اطلاعات دسترسی در منوی نشست راه دور",
+      "اشتراک گذاری اطلاعات دسترسی به منابع با دیگر کاربران",
+      "رفع مشکلات همگام سازی خودکار کلیپبورد در صفحه نشست"
+    ],
+    "featuresInEnglish": [
+      "Ability to save resource access info, e.g. username, password, secret key",
+      "View and copy access resources to target server from remote-session menu",
+      "Sharing resource access info with other users",
+      "Fixed auto sync clipboard problems"
+    ]
+  },
+  {
+    "version": "5.2.1",
+    "featuresInPersian": [
+      "بهبود اعلان ها و رفع مشکلات مربوط به انتشار پیام"
+    ],
+    "featuresInEnglish": [
+      "Notifications are improved and broadcasting bugs are fixed"
+    ]
+  },
+  {
+    "version": "5.1.1",
+    "featuresInPersian": [
+      "قابلیت 'No Capture'. امکان عدم ضبط ویدئوی نشست",
+      "بهبود سرعت پخش کننده ویدئو هنگام جلو بردن ویدئو"
+    ],
+    "featuresInEnglish": [
+      "'No Capture' feature. Ability to not capture session's video",
+      "Improve video-player speed on forwarding video"
+    ]
+  },
+  {
+    "version": "5.1.0",
+    "featuresInPersian": [
+      "بهبود ساختار و ظاهر صفحه پخش کننده ویدئو",
+      "بازطراحی پخش ویدئوی نشست های فعال و رفع مشکلات پیشین",
+      "قابلیت مشاهده ی کلیدهای فشرده شده در زمان پخش ویدئوی نشست و دانلود فایل رخدادهای کلید یک نشست در قالب CSV و JSON",
+      "بهبود صفحه نشست راه دور برای دستگاه های لمسی و بهبود عملکرد قابلیت کلیپبورد خودکار",
+      "بازطراحی تبدیل نشست به ویدئو جهت تولید ویدئوها با حجم کمتر و کیفیت بالاتر",
+      "رفع باگ های کلی در سایر قسمت های سامانه"
+    ],
+    "featuresInEnglish": [
+      "Improved video player design and structure",
+      "Redesign playing live sessions and fixed previous problems",
+      "Ability to see user's key events on playing session's video and download them as CSV and JSON",
+      "Improved remote session page for touch devices and improved auto sync clipboard performance",
+      "Redesign converting sessions to videos to generate smaller videos with higher quality",
+      "Fixed overall bugs and problems in other sections"
+    ]
+  },
+  {
+    "version": "5.0.0",
+    "featuresInPersian": [
+      "طراحی جدید و پیشرفته صفحه نشست راه دور",
+      "امکان ایجاد بیش از یک نشست بصورت همزمان و جابجایی میان نشست های مختلف",
+      "طراحی ماژول 'دریافت کننده متن' و 'کیبورد مجازی' جهت استفاده در دستگاه های لمسی",
+      "امکان دانلود/آپلود چندین فایل بصورت همزمان",
+      "نمایش میزان پیشرفت دانلود و آپلود فایل ها و امکان لغو آن ها",
+      "باز طراحی مدرن ساختار منو و اعلان ها"
+    ],
+    "featuresInEnglish": [
+      "New remote session page design",
+      "Ability to establish more than one remote session simultaneously and switching between them",
+      "'Text-Input' and 'On-Screen Keyboard' modules for touch devices",
+      "Ability to download/upload multiple files simultaneously",
+      "Ability to watch download/upload progress and cancel them",
+      "New modern design for menu and notifications"
+    ]
+  },
+  {
+    "version": "4.3.11",
+    "featuresInPersian": [
+      "قابلیت حذف نسخه پشتیبان پایگاه داده",
+      "رفع مشکل دانلود فایل نسخه پشتبان پایگاه داده",
+      "اصلاح ساختار دانلود ویدئوی نشست"
+    ],
+    "featuresInEnglish": [
+      "Ability to delete database backup record",
+      "Fix error on downloading database backup file",
+      "Improve downloading sessions' video"
+    ]
+  },
+  {
+    "version": "4.3.10",
+    "featuresInPersian": [
+      "قابلیت ثبت عبارت امنیتی و گواهی های Intermediate برای گواهی نوع وب"
+    ],
+    "featuresInEnglish": [
+      "Ability to register passphrase and 'intermediate certificates' for web certificate"
+    ]
+  },
+  {
+    "version": "4.3.9",
+    "featuresInPersian": [
+      "قابلیت اعمال زمانبدی بر سرویس های 'تهیه پشتیبان از پایگاه داده' و 'تغییر گواهی وب'",
+      "قابلیت مشاهده ی سرویس های زمان بندی شده و لغو آن ها"
+    ],
+    "featuresInEnglish": [
+      "Ability to apply scheduling on 'Database Backup' and 'Web Certificate Registration' services",
+      "Ability to review scheduled tasks and cancel them on demand"
+    ]
+  },
+  {
+    "version": "4.3.8",
+    "featuresInPersian": [
+      "بهبود ساختار و نمایش اعلان ها",
+      "امکان مشاهده پیغام ها در صفحه پروفایل"
+    ],
+    "featuresInEnglish": [
+      "Notifications display and structure improvement",
+      "Ability to see and read messages in profile"
+    ]
+  },
+  {
+    "version": "4.3.5",
+    "featuresInPersian": [
+      "قابلیت پشتیبان گیری از پایگاه داده"
+    ],
+    "featuresInEnglish": [
+      "Backup from database"
+    ]
+  },
+  {
+    "version": "4.3.3",
+    "featuresInPersian": [
+      "قابلیت ثبت گواهی (Certificate) به تعداد دلخواه و برای ارتباط مختلف"
+    ],
+    "featuresInEnglish": [
+      "Ability to register any number of certificates for different communications"
+    ]
+  },
+  {
+    "version": "4.3.2",
+    "featuresInPersian": [
+      "پخش کننده ی ویدئو جدید پیشرفته",
+      "رفع مشکل عدم بروزرسانی خودکار و پخش فیلم نشست فعال"
+    ],
+    "featuresInEnglish": [
+      "New advanced video player",
+      "Playing live sessions' video is fixed, Video will be updated automatically"
+    ]
+  },
+  {
+    "version": "4.3.1",
+    "featuresInPersian": [
+      "قابلیت اعمال ترتیب در دریافت داده ها",
+      "قابلیت ثبت بیش از یک سرویس احراز هویت خارجی از هر نوع"
+    ],
+    "featuresInEnglish": [
+      "Ability to set sorting on getting records",
+      "Ability to register more than one external authentication provider for each type"
+    ]
+  },
+  {
+    "version": "4.3.0",
+    "featuresInPersian": [
+      "مد امنیتی جدید در نشست RDP",
+      "پارامترهای جدید در نشست RDP(فعالسازی ورودی صدا، فعالسازی پرینت و ...)"
+    ],
+    "featuresInEnglish": [
+      "New RDP connection security mode",
+      "New options for RDP session (enabling printing, enabling audio input and etc.)"
+    ]
+  },
+  {
+    "version": "4.2.0",
+    "featuresInPersian": [
+      "ذخیره سازی پیغام های منتشر شده و امکان جستوجو در آن ها",
+      "مدیریت نشست کاربران",
+      "پشتیبانی از سامانه احراز هویت +TACACS",
+      "احراز هویت دو مرحله ای"
+    ],
+    "featuresInEnglish": [
+      "Keeping history of published messages and ability to search over them",
+      "Users sessions management",
+      "TACACS+ authentication provider",
+      "Two Factor Authentication"
+    ]
+  }
+]
